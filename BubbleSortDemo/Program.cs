@@ -9,8 +9,6 @@ Console.WriteLine("Array originale:");
 PrintArray(arr);
 Console.WriteLine("");
 
-
-int position = 0;
 int step = 1;
 bool swapped = false;
 
@@ -35,13 +33,10 @@ do
     }
     //else
     //{
-    //    position = 0;
     //    Console.WriteLine($"Passo {step}: Array parzialmente ordinato:");
     //    PrintArray(arr);
     //}
 } while (swapped);
-
-
 
 Console.ReadLine();
 
